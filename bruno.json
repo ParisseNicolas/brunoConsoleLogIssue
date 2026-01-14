@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "name": "myCollection",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ],
+  "filesystemAccess": {
+      "allow": true
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "api-testing-helper",
+  "version": "0.0.0",
+  "main": "index.js",
+  "description": "Local helper module for Bruno collection to perform api testing"
+}

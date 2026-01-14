@@ -1,0 +1,21 @@
+meta {
+  name: Basic request
+  type: http
+  seq: 1
+}
+
+get {
+  url: localhost
+  body: none
+  auth: inherit
+}
+
+script:pre-request {
+  const helper = require('api-testing-helper')()
+  helper.helloWorld()
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
